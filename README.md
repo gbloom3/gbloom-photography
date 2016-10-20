@@ -1,2 +1,2 @@
-# gbloomphotography
-Personal website for me as a photographer
+# gbloom-photography
+This is a personal website for me as a photographer.
