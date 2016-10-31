@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/style.css" type="text/css"/>
 		<title>PWP: Milestone 2</title>
 	</head>
 	<body>
@@ -25,11 +25,11 @@
 			<p><strong>Footer:</strong> This will contain links to my professional social media profiles: Twitter, Flickr, and LinkedIn.</p>
 
 			<h2>Wireframes</h2>
-			<p>This site will feature one layout that will be fully responsive on small and large screens. These wireframes were created using <a href="https://balsamiq.com">https://balsamiq.com</a>.</p>
-			<h3 class="image-header">Mobile Layout</h3>
-			<img src="img/mobile-layout.png" alt="Layout for mobile users"/>
-			<h3 class="image-header">Full-Screen Layout</h3>
-			<img src="img/browser-layout.png" alt="Layout for full-screen users"/>
+			<p>This site will have one layout that is responsively-scaled for mobile and desktop.</p>
+			<h2 class="image-header">Mobile Layout</h2>
+			<img class="image" src="../img/mobile-layout.png" alt="Layout for mobile users"/>
+			<h2 class="image-header">Full-Screen Layout</h2>
+			<img class="image" src="../img/browser-layout.png" alt="Layout for full-screen users"/>
 		</main>
 	</body>
 </html>
