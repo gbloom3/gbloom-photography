@@ -81,7 +81,7 @@
 						<a href="https://500px.com/gbloom2010"><i class="fa fa-500px fa-3x"></i></a>
 					</div>
 					<div class="col-xs-4 col-md-4">
-						<a href="www.linkedin.com/in/gregbloomdev"><i class="fa fa-linkedin-square fa-3x"></i></a>
+						<a href="https://www.linkedin.com/in/gregbloomdev"><i class="fa fa-linkedin-square fa-3x"></i></a>
 					</div>
 				</div>
 			</div>
