@@ -1,9 +1,48 @@
-.image-header{
-color: darkgreen;
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
-.image {
-	height: auto;
-	width: auto;
-	max-width: 50%;
-	max-height: 75%;
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+/***
+* Flickity Carousel
+***/
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+	background: #EEE;
+}
+
+.carousel-cell {
+	width: 66%;
+	height: 200px;
+	margin-right: 10px;
+	background: #cc0b2c;
+	border-radius: 5px;
+	counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+	display: block;
+	text-align: center;
+	content: "Image " counter(carousel-cell);
+	line-height: 200px;
+	font-size: 80px;
+	color: white;
 }
