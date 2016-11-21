@@ -74,8 +74,14 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-8 col-md-4">
+					<div class="col-xs-4 col-md-4">
+						<a href="https://twitter.com/gbloomDev"><i class="fa fa-twitter fa-3x"></i></a>
+					</div>
+					<div class="col-xs-4 col-md-4">
 						<a href="https://500px.com/gbloom2010"><i class="fa fa-500px fa-3x"></i></a>
+					</div>
+					<div class="col-xs-4 col-md-4">
+						<a href="www.linkedin.com/in/gregbloomdev"><i class="fa fa-linkedin-square fa-3x"></i></a>
 					</div>
 				</div>
 			</div>
