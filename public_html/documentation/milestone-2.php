@@ -27,9 +27,9 @@
 			<h2>Wireframes</h2>
 			<p>This site will have one layout that is responsively-scaled for mobile and desktop. </p>
 			<h2 class="image-header">Mobile Layout</h2>
-			<img class="image" src="../img/mobile-layout.png" alt="Layout for mobile users"/>
+			<img class="image" src="../img/documentation/mobile-layout.png" alt="Layout for mobile users"/>
 			<h2 class="image-header">Full-Screen Layout</h2>
-			<img class="image" src="../img/browser-layout.png" alt="Layout for full-screen users"/>
+			<img class="image" src="../img/documentation/browser-layout.png" alt="Layout for full-screen users"/>
 		</main>
 	</body>
 </html>
