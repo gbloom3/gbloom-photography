@@ -13,6 +13,9 @@ footer {
 	display: inline-block;
 	position: relative;
 }
+.formSpacing {
+	padding: 1em 0;
+}
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
