@@ -23,9 +23,6 @@
 		<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
-		<!-- load jQuery -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
 		<!-- Latest compiled and minified Bootstrap JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
@@ -50,6 +47,7 @@
 		<div class="sfooter-content">
 			<main>
 				<div class="fluid-container">
+					<!-- begin title section -->
 					<div class="row" id="title">
 						<div class="col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 backgroundImage">
 							<div class="col-xs-12 col-md-3 col-md-offset-7">
@@ -60,57 +58,44 @@
 							</div>
 						</div>
 					</div>
+					<!-- begin about me section -->
 					<div class="row" id="about">
 						<div class="col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1">
-							<p>Every day is taco ipsum tuesday. Tacos for breakfast, lunch and dinner. Um, Tabasco? No thanks,
-								do you have any Cholula? Josh’s taco shack is the best taco shack. I think I’ve overdosed on
-								tacos. Side of rice and beans, please. Side of rice and beans, please. Carne asada on corn
-								tortillas. Let’s do a beef and a chicken, and one with both. Carne asada on corn tortillas.
-								Tacos for breakfast, lunch and dinner. You see, the refried beans are really just the adhesive
-								necessary to apply the soft tortilla to the hard taco shell.</p>
-
-							<p>Flour or corn tortillas? Um, Tabasco? No thanks, do you have any Cholula? Does guac cost extra?
-								Let’s do a beef and a chicken, and one with both. It’s taco Tuesday Monday. You see, the refried
-								beans are really just the adhesive necessary to apply the soft tortilla to the hard taco shell.
-								Tacos, tacos, tacos. Ooh, with diced onions and a pinch of cilantro. How do you feel about hard
-								shelled tacos? It’s taco time all the time. Side of rice and beans, please.</p>
+							<p>Hi I'm Greg, a New Mexico-based photographer.</p>
 						</div>
 					</div>
+					<!-- begin gallery section -->
 					<div class="row" id="gallery">
-						<div class="col-xs-12 col-md-12 col-xs-offset-1 col-md-offset-1">
-						<h2>Gallery</h2>
+						<div class="col-xs-11 col-md-11 col-xs-offset-1 col-md-offset-1">
+							<h2>Gallery</h2>
 						</div>
 						<div class="col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 text-center">
-							<script type="text/javascript" src="js/jquery.events.touch.js">
-								$('a[data-rel^=lightcase]').lightcase({
-									swipe: true
-								});
-							</script>
 							<div class="row">
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/bee-min.jpg" class="thumbnail"
-										data-rel="lightcase:myCollection:slideshow" title="Bee">
+										data-rel="lightcase:myCollection:slideshow"
+										title="Bee on a Flower">
 										<img src="img/photos/thumbs/bee-tn.jpg"/>
 									</a>
 								</div>
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/bumblebee-min.jpg" class="thumbnail"
 										data-rel="lightcase:myCollection:slideshow"
-										title="Your title">
+										title="Bumblebee on a Flower">
 										<img src="img/photos/thumbs/bumblebee-tn.jpg"/>
 									</a>
 								</div>
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/burning-sky-min.jpg" class="thumbnail"
 										data-rel="lightcase:myCollection:slideshow"
-										title="Your title">
+										title="Burning Sky">
 										<img src="img/photos/thumbs/burning-sky-tn.jpg"/>
 									</a>
 								</div>
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/camel-rock-min.jpg" class="thumbnail"
 										data-rel="lightcase:myCollection:slideshow"
-										title="Your title">
+										title="Camel Rock">
 										<img src="img/photos/thumbs/camel-rock-tn.jpg"/>
 									</a>
 								</div>
@@ -119,26 +104,26 @@
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/dont-look-at-me-min.jpg" class="thumbnail"
 										data-rel="lightcase:myCollection:slideshow"
-										title="Your title">
+										title="Don't Look at Me!">
 										<img src="img/photos/thumbs/dont-look-at-me-tn.jpg"/>
 									</a>
 								</div>
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/flame-up-min.jpg" class="thumbnail"
 										data-rel="lightcase:myCollection:slideshow"
-										title="Your title">
+										title="Flame-Up">
 										<img src="img/photos/thumbs/flame-up-tn.jpg"/>
 									</a>
 								</div>
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/grand-canyon-sunrise-1-min.jpg"
-										class="thumbnail" data-rel="lightcase:myCollection:slideshow" title="Your title">
+										class="thumbnail" data-rel="lightcase:myCollection:slideshow" title="Grand Canyon Sunrise 1">
 										<img src="img/photos/thumbs/grand-canyon-sunrise-1-tn.jpg"/>
 									</a>
 								</div>
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/grand-canyon-sunrise-2-min.jpg"
-										class="thumbnail" data-rel="lightcase:myCollection:slideshow" title="Your title">
+										class="thumbnail" data-rel="lightcase:myCollection:slideshow" title="Grand Canyon Sunrise 2">
 										<img src="img/photos/thumbs/grand-canyon-sunrise-2-tn.jpg"/>
 									</a>
 								</div>
@@ -146,19 +131,19 @@
 							<div class="row">
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/grand-canyon-sunrise-3-min.jpg"
-										class="thumbnail" data-rel="lightcase:myCollection:slideshow" title="Your title">
+										class="thumbnail" data-rel="lightcase:myCollection:slideshow" title="Grand Canyon Sunrise 3">
 										<img src="img/photos/thumbs/grand-canyon-sunrise-3-tn.jpg"/>
 									</a>
 								</div>
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/grand-canyon-sunrise-4-min.jpg"
-										class="thumbnail" data-rel="lightcase:myCollection:slideshow" title="Your title">
+										class="thumbnail" data-rel="lightcase:myCollection:slideshow" title="Grand Canyon Sunrise 4">
 										<img src="img/photos/thumbs/grand-canyon-sunrise-4-tn.jpg"/>
 									</a>
 								</div>
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/grand-canyon-sunrise-5-min.jpg"
-										class="thumbnail" data-rel="lightcase:myCollection:slideshow" title="Your title">
+										class="thumbnail" data-rel="lightcase:myCollection:slideshow" title="Grand Canyon Sunrise 5">
 										<img src="img/photos/thumbs/grand-canyon-sunrise-5-tn.jpg"/>
 									</a>
 								</div>
@@ -174,28 +159,28 @@
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/hummingbird-fight-min.jpg" class="thumbnail"
 										data-rel="lightcase:myCollection:slideshow"
-										title="Your title">
+										title="Hummingbird Fight">
 										<img src="img/photos/thumbs/hummingbird-fight-tn.jpg"/>
 									</a>
 								</div>
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/half-rainbow-min.jpg" class="thumbnail"
 										data-rel="lightcase:myCollection:slideshow"
-										title="Your title">
+										title="Half-Rain Half-Bow">
 										<img src="img/photos/thumbs/half-rainbow-tn.jpg"/>
 									</a>
 								</div>
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/moonlight-ojo-min.jpg" class="thumbnail"
 										data-rel="lightcase:myCollection:slideshow"
-										title="Your title">
+										title="Moonlight over Ojo Caliente">
 										<img src="img/photos/thumbs/moonlight-ojo-tn.jpg"/>
 									</a>
 								</div>
 								<div class="col-xs-3 col-md-3">
 									<a href="img/photos/slot-canyon-min.jpg" class="thumbnail"
 										data-rel="lightcase:myCollection:slideshow"
-										title="Your title">
+										title="Slot Canyon">
 										<img src="img/photos/thumbs/slot-canyon-tn.jpg"/>
 									</a>
 								</div>
@@ -203,8 +188,26 @@
 						</div>
 					</div>
 				</div>
+				<!-- begin contact me section -->
 				<div class="row" id="contact">
-
+					<div class="col-xs-10 col-md-5 col-xs-offset-1 col-md-offset-1">
+						<p>Thank you for visiting my site! If you would like to get in touch with me, please use this contact form.</p>
+					</div>
+					<div class="col-xs-10 col-md-5 col-xs-offset-1 col-md-offset-0">
+						<div class="input-group formSpacing">
+							<span class="input-group-addon" id="nameInput"><i class="fa fa-user-circle"></i></span>
+							<input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+						</div>
+						<div class="input-group formSpacing">
+							<span class="input-group-addon" id="emailInput"><i class="fa fa-envelope"></i></span>
+							<input type="text" class="form-control" placeholder="example@email.com" aria-describedby="basic-addon1">
+						</div>
+						<div class="input-group formSpacing">
+							<span class="input-group-addon" id="commentInput"><i class="fa fa-comments"></i></span>
+							<input type="text" class="form-control" placeholder="Questions/Comments?" aria-describedby="basic-addon1">
+						</div>
+						<button type="button" class="btn btn-default" id="submitButton">Submit</button>
+					</div>
 				</div>
 		</div>
 		</main>
