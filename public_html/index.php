@@ -30,7 +30,7 @@
 		<![endif]-->
 
 		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript"
@@ -318,7 +318,7 @@
 							</div>
 
 							<!-- reCAPTCHA -->
-							<div class="g-recaptcha col-xs-10 col-md-5"
+							<div class="g-recaptcha col-xs-5 col-md-5 text-center"
 								  data-sitekey="6Ld7Hw4UAAAAANmcKuVzxmEKrn4W2d59U885v-iu"></div>
 							<div class="col-xs-10 col-md-5 col-md-offset-1">
 								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
@@ -328,7 +328,7 @@
 
 						<!--empty area for form error/success output-->
 						<div class="row">
-							<div class="col-xs-12">
+							<div class="col-xs-12 col-md-12">
 								<div id="output-area"></div>
 							</div>
 						</div>
