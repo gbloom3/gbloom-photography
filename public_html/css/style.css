@@ -2,32 +2,67 @@
 	.carousel-cell {
 		width: 100%; /* full width */
 		height: auto;
+		margin-top: 10px;
 		margin-right: 10px;
 	}
 	.titleHeading{
 		margin-top: -25vh;
-		font-family: 'Bungee', cursive;
 		font-size: 3em;
-		color: #281306;
+	}
+	.subtitleHeading{
+		font-size: 2em;
+	}
+	.bodyText{
+		font-size: 1em;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+	.carousel-cell {
+		width: 100%; /* full width */
+		height: auto;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	.titleHeading{
+		margin-top: -25vh;
+		font-size: 4em;
+	}
+	.subtitleHeading{
+		font-size: 2.5em;
+	}
+	.bodyText{
+		font-size: 1em;
 	}
 }
 @media only screen and (min-width: 900px) {
 	.carousel-cell {
 		width: 100%; /* full width */
 		height: auto;
-		margin-right: 10px;
+		margin: 5% 2.5%;
 	}
 	.titleHeading{
 		margin-top: -55vh;
-		font-family: 'Bungee', cursive;
 		font-size: 5em;
-		color: #281306;
+	}
+	.subtitleHeading{
+		font-size: 3em;
+	}
+	.bodyText{
+		font-size: 1.5em;
 	}
 }
 footer {
-	margin-top: 1em;
+	margin-top: 2em;
 	padding: 1em 0;
 	background-color: black;
+}
+.titleHeading{
+	font-family: 'Bungee', cursive;
+	color: white;
+}
+.subtitleHeading{
+	font-family: 'Bungee', cursive;
+	color: white;
 }
 .titleBackground {
 	display: inline-block;
@@ -43,10 +78,10 @@ footer {
 }
 .bodyText{
 	font-family: 'Arvo', serif;
-	font-size: 1.5em;
 	color: #281306;
 }
 .main-carousel{
+	background-color: #72382E;
 	margin-bottom: 1.5em;
 }
 .flickity-viewport {
@@ -71,10 +106,12 @@ body { width: 100%;}
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	background-color: #A5541F;
 }
 
 .sfooter-content {
 	flex: 1 0 auto;
+	background-color: #A5541F;
 }
 
 /***
