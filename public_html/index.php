@@ -75,15 +75,12 @@
 			<main>
 				<div class="fluid-container">
 					<nav class="navbar navbar-inverse">
-						<div class="container-fluid">
-							<div class="navbar-header">
 								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
 									<span class="sr-only">Toggle navigation</span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-							</div>
 
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
 								<ul class="nav navbar-nav">
@@ -93,29 +90,24 @@
 									<li><a href="#contact">Contact Me</a></li>
 								</ul>
 							</div>
-						</div>
 					</nav>
 					<!-- begin title section -->
-					<div class="jumbotron" id="title">
-						<div class="container">
-							<div class="col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 backgroundImage">
-								<div class="col-xs-12 col-md-6 col-md-offset-9 text-center heading">
-									<h1>Greg Bloom</h1>
-									<p>Photographer</p>
-								</div>
-							</div>
+					<div class="titleBackground" id="title">
+						<img src="img/photos/butterfly-min.jpg" class="img-responsive verticalAlign" alt="" />
+						<div class="col-xs-12 col-md-6 col-md-offset-6 text-center">
+							<h1 class="titleHeading">Greg Bloom</h1>
+							<p class="heading">Photographer</p>
 						</div>
 					</div>
 					<!-- begin about me section -->
-					<div class="row" id="about">
-						<div class="col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 bodyText">
-							<p>Hi I'm Greg, a New Mexico-based photographer.</p>
+
+						<div class="col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 section" id="about">
+							<h1 class="heading">About Me</h1>
+							<p class="bodyText">Hi I'm Greg, a New Mexico-based photographer.</p>
 						</div>
-					</div>
 					<!-- begin gallery section -->
-					<div class="row bodyText" id="gallery">
-						<div class="col-xs-11 col-md-11 col-xs-offset-1 col-md-offset-1">
-							<h2 class="heading">Gallery</h2>
+						<div class="col-xs-11 col-md-11 col-xs-offset-1 col-md-offset-1 sectionAlt" id="gallery">
+							<h1 class="heading">Gallery</h1>
 						</div>
 						<div class="col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1">
 							<div class="main-carousel popup-gallery" data-flickity='{ "cellAlign": "center", "contain": true, "dragThreshold": 10, "adaptiveHeight": true, "lazyLoad": true}'>
@@ -123,14 +115,14 @@
 									<div class="row">
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/bee-min.jpg" class="thumbnail"
-												
+
 												title="Bee on a Flower">
 												<img src="img/photos/thumbs/bee-tn.jpg"/>
 											</a>
 										</div>
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/bumblebee-min.jpg" class="thumbnail"
-												
+
 												title="Bumblebee on a Flower">
 												<img src="img/photos/thumbs/bumblebee-tn.jpg"/>
 											</a>
@@ -139,14 +131,14 @@
 									<div class="row">
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/burning-sky-min.jpg" class="thumbnail"
-												
+
 												title="Burning Sky">
 												<img src="img/photos/thumbs/burning-sky-tn.jpg"/>
 											</a>
 										</div>
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/camel-rock-min.jpg" class="thumbnail"
-												
+
 												title="Camel Rock">
 												<img src="img/photos/thumbs/camel-rock-tn.jpg"/>
 											</a>
@@ -155,14 +147,14 @@
 									<div class="row">
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/dont-look-at-me-min.jpg" class="thumbnail"
-												
+
 												title="Don't Look at Me!">
 												<img src="img/photos/thumbs/dont-look-at-me-tn.jpg"/>
 											</a>
 										</div>
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/flame-up-min.jpg" class="thumbnail"
-												
+
 												title="Flame-Up">
 												<img src="img/photos/thumbs/flame-up-tn.jpg"/>
 											</a>
@@ -173,14 +165,14 @@
 									<div class="row">
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/grand-canyon-sunrise-1-min.jpg"
-												class="thumbnail" 
+												class="thumbnail"
 												title="Grand Canyon Sunrise 1">
 												<img src="img/photos/thumbs/grand-canyon-sunrise-1-tn.jpg"/>
 											</a>
 										</div>
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/grand-canyon-sunrise-2-min.jpg"
-												class="thumbnail" 
+												class="thumbnail"
 												title="Grand Canyon Sunrise 2">
 												<img src="img/photos/thumbs/grand-canyon-sunrise-2-tn.jpg"/>
 											</a>
@@ -189,14 +181,14 @@
 									<div class="row">
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/grand-canyon-sunrise-3-min.jpg"
-												class="thumbnail" 
+												class="thumbnail"
 												title="Grand Canyon Sunrise 3">
 												<img src="img/photos/thumbs/grand-canyon-sunrise-3-tn.jpg"/>
 											</a>
 										</div>
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/grand-canyon-sunrise-4-min.jpg"
-												class="thumbnail" 
+												class="thumbnail"
 												title="Grand Canyon Sunrise 4">
 												<img src="img/photos/thumbs/grand-canyon-sunrise-4-tn.jpg"/>
 											</a>
@@ -205,14 +197,14 @@
 									<div class="row">
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/grand-canyon-sunrise-5-min.jpg"
-												class="thumbnail" 
+												class="thumbnail"
 												title="Grand Canyon Sunrise 5">
 												<img src="img/photos/thumbs/grand-canyon-sunrise-5-tn.jpg"/>
 											</a>
 										</div>
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/grand-canyon-sunrise-6-min.jpg"
-												class="thumbnail" 
+												class="thumbnail"
 												title="Grand Canyon Sunrise 6 ">
 												<img src="img/photos/thumbs/grand-canyon-sunrise-6-tn.jpg"/>
 											</a>
@@ -223,14 +215,14 @@
 									<div class="row">
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/hummingbird-fight-min.jpg" class="thumbnail"
-												
+
 												title="Hummingbird Fight">
 												<img src="img/photos/thumbs/hummingbird-fight-tn.jpg"/>
 											</a>
 										</div>
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/half-rainbow-min.jpg" class="thumbnail"
-												
+
 												title="Half-Rain Half-Bow">
 												<img src="img/photos/thumbs/half-rainbow-tn.jpg"/>
 											</a>
@@ -239,14 +231,14 @@
 									<div class="row">
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/moonlight-ojo-min.jpg" class="thumbnail"
-												
+
 												title="Moonlight over Ojo Caliente">
 												<img src="img/photos/thumbs/moonlight-ojo-tn.jpg"/>
 											</a>
 										</div>
 										<div class="col-xs-6 col-md-6">
 											<a href="img/photos/slot-canyon-min.jpg" class="thumbnail"
-												
+
 												title="Slot Canyon">
 												<img src="img/photos/thumbs/slot-canyon-tn.jpg"/>
 											</a>
@@ -254,19 +246,15 @@
 									</div>
 								</div>
 							</div>
-
-
 						</div>
 					</div>
-				</div>
 				<!-- begin contact me section -->
-				<div class="row bodyText" id="contact">
-					<div class="col-xs-10 col-md-5 col-xs-offset-1 col-md-offset-1">
-						<h2 class="heading">Contact Me</h2>
+					<div class="col-xs-10 col-md-5 col-xs-offset-1 col-md-offset-1" id="contact">
+						<h1 class="heading">Contact Me</h1>
 						<p>Thank you for visiting my site! If you would like to get in touch with me, please use this contact
 							form.</p>
 					</div>
-					<div class="col-xs-10 col-md-5 col-xs-offset-1 col-md-offset-0">
+					<div class="col-xs-11 col-md-4 col-xs-offset-1">
 						<div class="input-group formSpacing">
 							<span class="input-group-addon" id="nameInput"><i class="fa fa-user-circle"></i></span>
 							<input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
@@ -283,9 +271,7 @@
 						</div>
 						<button type="button" class="btn btn-default" id="submitButton">Submit</button>
 					</div>
-				</div>
-		</div>
-		</main>
+			</main>
 		</div>
 		<!-- begin footer-->
 		<footer>
