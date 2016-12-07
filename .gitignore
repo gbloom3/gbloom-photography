@@ -3,3 +3,4 @@
 /vendor
 *magnific-*.*
 public_html/scss/
+**/php/mail-config.php
