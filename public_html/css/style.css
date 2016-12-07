@@ -4,12 +4,24 @@
 		height: auto;
 		margin-right: 10px;
 	}
+	.titleHeading{
+		margin-top: -25vh;
+		font-family: 'Bungee', cursive;
+		font-size: 3em;
+		color: #281306;
+	}
 }
 @media only screen and (min-width: 900px) {
 	.carousel-cell {
 		width: 100%; /* full width */
-		height: 150vh;
+		height: auto;
 		margin-right: 10px;
+	}
+	.titleHeading{
+		margin-top: -55vh;
+		font-family: 'Bungee', cursive;
+		font-size: 5em;
+		color: #281306;
 	}
 }
 footer {
@@ -17,29 +29,34 @@ footer {
 	padding: 1em 0;
 	background-color: black;
 }
-.background {
+.titleBackground {
 	display: inline-block;
-	position: relative;
-}
-.backgroundImage{
-	background-image: url(../img/photos/butterfly-min.jpg);
+	margin-top: auto;
 }
 .formSpacing {
 	padding: 1em 0;
 }
 .heading{
 	font-family: 'Bungee', cursive;
-	font-size: 5vw;
+	font-size: 3em;
+	color: #281306;
 }
 .bodyText{
 	font-family: 'Arvo', serif;
 	font-size: 1.5em;
+	color: #281306;
 }
 .main-carousel{
 	margin-bottom: 1.5em;
 }
 .flickity-viewport {
 	transition: height 0.2s;
+}
+/**
+* Removed extra space between navbar and title section
+**/
+.navbar {
+	margin-bottom: 0px;
 }
 /***
 * Flexbox Sticky Footer
