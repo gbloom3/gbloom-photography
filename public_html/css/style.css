@@ -15,6 +15,9 @@
 	.bodyText{
 		font-size: 1em;
 	}
+	.flickity-page-dots {
+		bottom: 0px;
+	}
 }
 @media only screen and (min-width: 768px) and (max-width: 899px) {
 	.carousel-cell {
@@ -33,6 +36,9 @@
 	.bodyText{
 		font-size: 1em;
 	}
+	.flickity-page-dots {
+		bottom: 10px;
+	}
 }
 @media only screen and (min-width: 900px) {
 	.carousel-cell {
@@ -49,6 +55,9 @@
 	}
 	.bodyText{
 		font-size: 1.5em;
+	}
+	.flickity-page-dots {
+		bottom: 40px;
 	}
 }
 footer {

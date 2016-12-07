@@ -97,7 +97,7 @@
 									<li class="active"><a href="#">Home</a></li>
 									<li><a href="#about">About</a></li>
 									<li><a href="#gallery">Gallery</a></li>
-									<li><a href="#contact">Contact Me</a></li>
+									<li><a href="#contact">Contact</a></li>
 								</ul>
 							</div>
 					</nav>
@@ -111,8 +111,23 @@
 					</div>
 					<!-- begin about me section -->
 						<div class="col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1" id="about">
-							<h1 class="heading">About Me</h1>
-							<p class="bodyText">Hi I'm Greg, a New Mexico-based photographer.</p>
+							<h1 class="heading">About</h1>
+							<p class="bodyText"> Greg is an amateur photographer with a passion for capturing images of beautiful insects,
+								flowers, landscapes, and other wonders of nature. Basically, Greg enjoys photographing
+								nature to understand the world better. He strongly believes photographing nature reminds
+								us all to protect and preserve the environment.
+							</p>
+							<p class="bodyText">
+								Greg is willing to invest some time to capture and frame the common behavior
+								of subjects such as birds and butterflies. Magnification is important to allow
+								the observer to enjoy subject poses which the naked eye can barely glance at.
+								He uses a Nikon D3200 camera with a 16-300mm Lens, adjusting exposure to the occasion.
+							</p>
+							<p class="bodyText">
+								Greg is an active member of the New Mexico based Enchanted Lens Club
+								since 2014 and won first prize for his “Butterfly on a Flower” photograph in the New
+								Mexico State Fair in 2015.
+							</p>
 						</div>
 					<!-- begin gallery section -->
 						<div class="col-xs-11 col-md-11 col-xs-offset-1 col-md-offset-1" id="gallery">
@@ -258,27 +273,55 @@
 						</div>
 				<!-- begin contact me section -->
 					<div class="col-xs-10 col-md-5 col-xs-offset-1 col-md-offset-1" id="contact">
-						<h1 class="heading">Contact Me</h1>
-						<p class="bodyText">Thank you for visiting my site! If you would like to get in touch with me, please use this contact
+						<h1 class="heading">Like what you see?</h1>
+						<p class="bodyText">If you’re interested in any of the wonders of the great outdoors captured by Greg Bloom, please feel free to contact him through this contact
 							form.</p>
 					</div>
-					<div class="col-xs-10 col-md-4 col-xs-offset-1">
-						<div class="input-group formSpacing">
-							<span class="input-group-addon" id="nameInput"><i class="fa fa-user-circle"></i></span>
-							<input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+					<div class="col-xs-10 col-md-5 col-xs-offset-1 col-md-offset-0">
+					<form id="contact-form" class="bodyText" action="php/mailer.php" method="post">
+						<div class="form-group">
+							<label for="name">Name <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+							</div>
 						</div>
-						<div class="input-group formSpacing">
-							<span class="input-group-addon" id="emailInput"><i class="fa fa-envelope"></i></span>
-							<input type="text" class="form-control" placeholder="example@email.com"
-									 aria-describedby="basic-addon1">
+						<div class="form-group">
+							<label for="email">Email <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+							</div>
 						</div>
-						<div class="input-group formSpacing">
-							<span class="input-group-addon" id="commentInput"><i class="fa fa-comments"></i></span>
-							<input type="text" class="form-control" placeholder="Questions/Comments?"
-									 aria-describedby="basic-addon1">
+						<div class="form-group">
+							<label for="message">Message <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+								</div>
+								<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+							</div>
 						</div>
-						<button type="button" class="btn btn-default" id="submitButton">Submit</button>
+
+						<!-- reCAPTCHA -->
+						<div class="g-recaptcha col-xs-10 col-md-5" data-sitekey="6Ld7Hw4UAAAAANmcKuVzxmEKrn4W2d59U885v-iu"></div>
+						<div class="col-xs-10 col-md-5 col-md-offset-1">
+						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+						</div>
+					</form>
+
+					<!--empty area for form error/success output-->
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="output-area"></div>
+						</div>
 					</div>
+				</div>
 				</div>
 			</main>
 		</div>
